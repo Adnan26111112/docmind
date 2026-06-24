@@ -83,7 +83,9 @@ def ask_question(
         max_tokens=1024,
     )
 
+    import re
     raw_answer: str = response.choices[0].message.content.strip()
+    raw_answer = re.sub(r'<[^>]+>', '', raw_answer).strip()
 
     not_in_doc = raw_answer.startswith(_NOT_FOUND_SIGNAL)
     if not_in_doc:
