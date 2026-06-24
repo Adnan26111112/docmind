@@ -251,7 +251,7 @@ if st.session_state.chat_history:
         </div>
         <div class="bubble-ai">
           <div class="bubble-label">DocMind</div>
-          {turn["answer"]}
+          {turn["answer"].replace("<", "&lt;").replace(">", "&gt;")}
           {"<div class='not-found'>⚠ The answer to this question wasn't found in the document. The response is based on general knowledge.</div>" if turn.get("not_in_doc") else ""}
         </div>
         """
