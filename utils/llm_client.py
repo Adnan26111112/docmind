@@ -84,7 +84,7 @@ def ask_question(
         )
     except Exception as e:
         if "rate_limit" in str(e).lower() or "429" in str(e):
-            return "⚠ Groq rate limit reached. Please wait 1 minute and try again.", False
+        return "⚠ Groq rate limit reached. Please wait 1 minute and try again.", False
         return f"⚠ Error: {str(e)[:200]}", False
 
     import re
