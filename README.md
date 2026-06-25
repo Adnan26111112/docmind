@@ -8,7 +8,7 @@
 
 ## Live Demo
 
-🔗 **[docmind.streamlit.app](https://docmind.streamlit.app)** *(replace with your deployed URL)*
+🔗 https://docmind-mdxnwn98dvnsekjjcynxxs.streamlit.app
 
 ---
 
