@@ -134,14 +134,3 @@ Rather than a cosine-threshold heuristic, the model itself is instructed to emit
 - Chat history is session-only; refreshing the page resets it (MVP scope).
 - The `all-MiniLM-L6-v2` model cold-starts on first run (~20 s on Streamlit Cloud free tier).
 
----
-
-## Demo Video
-
-📹 [Watch on YouTube / Loom](#) *(replace with your link)*
-
----
-
-## License
-
-MIT
