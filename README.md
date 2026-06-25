@@ -2,9 +2,8 @@
 
 > Ask questions about any PDF. Get grounded, accurate answers — powered by Groq (LLaMA 3.1) and semantic search.
 
-![DocMind screenshot placeholder](https://via.placeholder.com/900x480/0d0f14/6ee7b7?text=DocMind+Screenshot)
 
----
+
 
 ## Live Demo
 
