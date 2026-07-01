@@ -13,9 +13,7 @@ Rules:
 1. Base your answer strictly on the provided context.
 2. If the context does not contain enough information to answer the question,
    start your response with the exact token: {_NOT_FOUND_SIGNAL}
-   followed by a brief honest note that the answer isn't in the document,
-   then optionally provide a short general-knowledge answer labelled
-   "General knowledge:".
+   followed by a brief honest note that the answer isn't in the document.
 3. Be concise and factual. Cite relevant details from the context when useful.
 4. Never fabricate information that isn't in the context without flagging it.
 5. Maintain a helpful, professional tone.
